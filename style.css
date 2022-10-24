@@ -31,11 +31,12 @@ nav ul li {
 
 .right_nav{
     margin-left: 7rem;
-    width: 7%;
-    padding: 15px;
+    width: 7.5%;
+    padding: 10px;
     border: none;
-    border-radius: 25%;
+    border-radius: 25px;
     background-color: #00baf2;
+    text-align: center;
 }
 .right_nav span {
     /* margin-right: 10px; */
@@ -93,9 +94,12 @@ padding-bottom: 50px;
 .section_popup_main {
     position: relative;
 }
+
+/* Pop-up Section */
+
 .pop_up {
-    display: flex; 
-    /* display: none;  */
+   /* display: flex;  */
+    display: none; 
     /* if display:none then no pop up, when display:flex then only pop up appears */
     justify-content: center;
     align-items: center;
@@ -126,4 +130,49 @@ form {
     background-color: #00baf2;
     color: white;
     font-weight: bold;
+}
+
+/*Recharge and bill payment section */
+
+.recharge {
+width: 100%;
+height: 23rem;
+background-color: #00baf2;
+color: white;
+padding-left: 9rem;
+}
+.recharge h1 {
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    padding-top: 4rem;
+}
+.recharge_pay {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2.5rem;
+}
+.recharge_pay img {
+    height: 70px;
+    width: 70px;
+}
+.service {
+    width: 11%;
+    height: 11rem;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.service:hover {
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.service p {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: sans-serif;
+    padding-top: 8px;
+}
+.service span {
+    font-weight: bold;
+    font-size: 15px;
 }
