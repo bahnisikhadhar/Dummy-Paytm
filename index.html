@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- start header -->
     <header>
         <div class="left_nav">
             <img src="images\paytm_logo.png" alt="paytm logo">
@@ -31,14 +32,19 @@
                 <li style="margin-right: 1.5em;">Career</li>
             </ul>
         </nav>
+        <!-- sign in button start-->
         <div class="right_nav">
-            <span>Sign in</span><i class="fa-sharp fa-solid fa-circle-user"></i>
+           <a href="#modalbox"> <span>Sign in</span><i class="fa-sharp fa-solid fa-circle-user"></i></a>
         </div>
+        <!-- sign in button end-->
     </header>
+    <!-- end of header -->
     <div class="subheading"> No Wallet KYC Required 😊 to pay using UPI on Paytm.Learn more.</div>
 
-    <div class="section_popup_main">
-        <section class="pop_up">
+    <!-- pop up section -->
+    <div class="section_popup_main"> 
+        <!-- the above class not needed for the modified code -->
+        <section class="pop_up" id="modalbox">
             <form>
                 <h3>To Sign up for your account <br>
                     1.Open The App <br>
@@ -51,6 +57,7 @@
                 <label for="phone">Phone number</label> <br>
                 <input type="tel" name="phone" id="" class="box"> <br> <br> <br>
                 <input type="submit" class="submit">
+                <a href="#" class="modalclose">&times;</a>
             </form>
         </section>
 
