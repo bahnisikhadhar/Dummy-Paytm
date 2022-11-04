@@ -184,7 +184,7 @@ form {
     font-weight: bold;
 }
 
-/*Recharge and bill payment section */
+/***********************************Recharge and bill payment section*****************************************/
 
 .recharge {
 width: 100%;
@@ -228,3 +228,19 @@ padding-left: 9rem;
     font-weight: bold;
     font-size: 15px;
 }
+/*******************************************Start of Book & Buy Section****************************************/
+.book_buy {
+    background-color: #0f4a8a;
+}
+.book_buy__service {
+    text-align: justify;
+}
+.book_buy__service:hover {
+    background-color: #05305e;
+    border-radius: 10px;
+}
+.book_buy__service p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+/********************************************Start of Payment Instruction Section*****************************/
